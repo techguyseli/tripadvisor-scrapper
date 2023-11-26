@@ -3,7 +3,7 @@ import subprocess
 from pathlib import Path
 
 
-class LinkDownloader:
+class AttractionLinkDownloader:
 
     def __init__(self, link_pre:str, link_suff:str, last_pagination:int,
                  pagination:int=0, pagination_incr:int=30,
